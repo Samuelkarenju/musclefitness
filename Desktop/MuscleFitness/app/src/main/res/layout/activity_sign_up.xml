@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsquatbackview"
+    tools:context=".SignUp">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+
+    <EditText
+        android:id="@+id/edtfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Firstname"
+        android:drawableLeft="@drawable/ic_person1_white1_24dp"
+        android:textColorHint="#fff"
+        android:drawablePadding="6dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/edtlastname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Lastname"
+        android:drawableLeft="@drawable/ic_person1_white1_24dp"
+        android:textColorHint="#fff"
+        android:drawablePadding="6dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Email Address"
+        android:drawableLeft="@drawable/ic_person1_white1_24dp"
+        android:textColorHint="#fff"
+        android:drawablePadding="6dp"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_person1_white1_24dp"
+        android:textColorHint="#fff"
+        android:drawablePadding="6dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock1_white1_24dp"
+        android:textColorHint="#fff"
+        android:drawablePadding="6dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@null"
+        android:text="Sign Up"
+        android:textSize="19sp"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
